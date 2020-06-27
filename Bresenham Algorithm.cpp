@@ -116,33 +116,6 @@ void display()
     glBegin(GL_POINTS);
 
 
-//    dx=abs(x2-x1);
-//    dy=abs(yy2-yy1);
-//
-//    step = max(dx,dy);
-//
-//    ix=dx/step;
-//    iy=dx/step;
-//    pr("%.2f\n",dy/dx);
-//    float m=dy/dx;
-//
-//    x=x1,y=yy1;
-//    glVertex2d(x,y);
-//    int l=step;
-//
-//    pr("s=%d x=%.2f y=%.2f\n",1,x,y);
-//    For(i,0,l)
-//    {
-//        x+=(1/m);
-//        y++;
-//        glVertex2d(x,y);
-//        pr("s=%d x=%.2f y=%.2f\n",i+2,x,y);
-//    }
-
-
-
-
-
 
 
 

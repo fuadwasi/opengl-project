@@ -1,9 +1,19 @@
 # depslib dependency file v1.0
-1592143444 source:c:\users\fuadh\onedrive\code\glut project\glutpro\main.cpp
+1593269054 source:c:\users\fuadh\onedrive\code\glut project\glutpro\main.cpp
 	<GL/glut.h>
 	<stdio.h>
 	<GL/gl.h>
 	<windows.h>
+	<stdio.h>
+	<math.h>
+	<bits/stdc++.h>
+	<string>
+	<windows.h>
+	<iostream>
+	<shlobj.h>
+	<time.h>
+	<cstdlib>
+	<sstream>
 
 1301111162 c:\program files (x86)\codeblocks\mingw\include\windows.h
 	<winresrc.h>
@@ -230,6 +240,21 @@
 	<sys/types.h>
 
 1341006780 c:\program files (x86)\codeblocks\mingw\include\sys\types.h
+	<_mingw.h>
+	<stddef.h>
+
+1341006774 c:\program files (x86)\codeblocks\mingw\include\math.h
+	<_mingw.h>
+
+1301111160 c:\program files (x86)\codeblocks\mingw\include\shlobj.h
+	<ole2.h>
+	<shlguid.h>
+	<shellapi.h>
+	<commctrl.h>
+
+1301111160 c:\program files (x86)\codeblocks\mingw\include\shlguid.h
+
+1341006776 c:\program files (x86)\codeblocks\mingw\include\time.h
 	<_mingw.h>
 	<stddef.h>
 

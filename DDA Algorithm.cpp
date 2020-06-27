@@ -116,83 +116,31 @@ void display()
     glBegin(GL_POINTS);
 
 
-//    dx=abs(x2-x1);
-//    dy=abs(yy2-yy1);
-//
-//    step = max(dx,dy);
-//
-//    ix=dx/step;
-//    iy=dx/step;
-//    pr("%.2f\n",dy/dx);
-//    float m=dy/dx;
-//
-//    x=x1,y=yy1;
-//    glVertex2d(x,y);
-//    int l=step;
-//
-//    pr("s=%d x=%.2f y=%.2f\n",1,x,y);
-//    For(i,0,l)
-//    {
-//        x+=(1/m);
-//        y++;
-//        glVertex2d(x,y);
-//        pr("s=%d x=%.2f y=%.2f\n",i+2,x,y);
-//    }
 
 
 
+    dx=abs(x2-x1);
+    dy=abs(yy2-yy1);
 
+    step = max(dx,dy);
 
+    ix=dx/step;
+    iy=dx/step;
+    pr("%.2f\n",dy/dx);
+    float m=dy/dx;
 
+    x=x1,y=yy1;
+    glVertex2d(x,y);
+    int l=step;
 
-
-/* ****************************** Bresenham AlgorithmFile ************************ */
-
-	dx=x1-x0;
-	dy=yy1-yy0;
-
-	x=x0;
-	y=yy0;
-
-	p=2*dy-dx;
-	pr1(p);
-    int i=1;
-
-	while(x<=x1)
-	{
-	    pr("%d  %.2f  %.2f\n",i++,x,y);
-	    glVertex2d(x,y);
-	    pr1(p);
-
-		if(p>=0)
-		{
-			y=y+1;
-			p=p+2*dy-2*dx;
-		}
-		else
-		{
-
-			p=p+2*dy;
-
-		}
-		x=x+1;
-
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    pr("s=%d x=%.2f y=%.2f\n",1,x,y);
+    For(i,0,l)
+    {
+        x+=(1/m);
+        y++;
+        glVertex2d(x,y);
+        pr("s=%d x=%.2f y=%.2f\n",i+2,x,y);
+    }
 
 
     glEnd();
