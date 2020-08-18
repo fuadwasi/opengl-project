@@ -1,9 +1,21 @@
 # depslib dependency file v1.0
-1595317644 source:c:\users\fuadh\onedrive\code\glut project\glutpro\main.cpp
+1597738828 source:c:\users\fuadh\onedrive\code\glut project\glutpro\main.cpp
+	<windows.h>
+	<bits/stdc++.h>
 	<GL/glut.h>
 	<stdio.h>
 	<GL/gl.h>
-	<windows.h>
+	<iostream>
+	<mmsystem.h>
+	"bari.h"
+	"road.h"
+	"star.h"
+	"background_design.h"
+	"car.h"
+	"car2.h"
+	"road_light.h"
+	"shaphead.h"
+	"fireHid.h"
 
 1301111162 c:\program files (x86)\codeblocks\mingw\include\windows.h
 	<winresrc.h>
@@ -247,4 +259,24 @@
 1341006776 c:\program files (x86)\codeblocks\mingw\include\time.h
 	<_mingw.h>
 	<stddef.h>
+
+1597592754 c:\users\fuadh\onedrive\code\glut project\glutpro\bari.h
+
+1597430003 c:\users\fuadh\onedrive\code\glut project\glutpro\road.h
+
+1597359889 c:\users\fuadh\onedrive\code\glut project\glutpro\star.h
+
+1597705623 c:\users\fuadh\onedrive\code\glut project\glutpro\background_design.h
+
+1597433614 c:\users\fuadh\onedrive\code\glut project\glutpro\car.h
+
+1597695162 c:\users\fuadh\onedrive\code\glut project\glutpro\road_light.h
+
+1597695162 c:\users\fuadh\onedrive\code\glut project\glutpro\road_light2.h
+
+1597433166 c:\users\fuadh\onedrive\code\glut project\glutpro\car2.h
+
+1597701140 c:\users\fuadh\onedrive\code\glut project\glutpro\shaphead.h
+
+1597696987 c:\users\fuadh\onedrive\code\glut project\glutpro\firehid.h
 
